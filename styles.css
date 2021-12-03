@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Outfit:wght@300;500;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  ::-moz-selection { /* Code for Firefox */
+    color: #313131;
+    background: #FFCC00;
+  }
+  
+  ::selection {
+    color: #313131;
+    background: #FFCC00;
+  }
+a{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+header{
+}
+nav{
+    top: 2vh;
+    right: 2vw;
+    position: absolute;
+    position: fixed;
+    width: 3vw;
+    font-size: 30px;
+}
+#homepage-btn{
+    color: #FFCC00;
+}
+#homepage-btn:hover{
+    opacity: 0.8;
+}
+.nav-links:hover{
+    color: #FFCC00;
+}
+main{
+    width: 70%;
+    margin: auto;
+}
+hr{
+    border: solid 1px #414141;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    display: flex;
+    gap: 10%;
+}
+.container img{
+    margin-top: 2vh;
+    width: 45%;
+    opacity: 0.5;
+}
+h1:hover + .container{
+    
+    transition: 0.5s all;
+}
+section{
+    margin-top: 10vh;
+}
+.text-up{
+    margin-bottom: 5vh;
+    color: #515151;
+    font-size: 24px;
+    font-weight: 500;
+    border-left: #FFCC00 5px solid;
+    padding-left: 15px;
+}
